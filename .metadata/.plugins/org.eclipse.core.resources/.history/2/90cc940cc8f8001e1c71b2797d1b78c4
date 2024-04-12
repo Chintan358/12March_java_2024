@@ -1,0 +1,20 @@
+package oops;
+
+
+class Calc
+{
+	public void add(int a, int b)
+	{
+		int r = a+b;
+		System.out.println("m1 : "+r);
+	}
+}
+
+public class O004_MethodOverloading {
+	public static void main(String[] args) {
+		
+		Calc c = new Calc();
+		c.add(10, 20);
+		
+	}
+}

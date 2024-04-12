@@ -1,0 +1,27 @@
+package oops;
+
+class X
+{
+	public void display()
+	{
+		System.out.println("runing display of x");
+	}
+	
+}
+
+class Y extends X
+{
+	@Override
+	public void display() {
+		System.out.println("Runing display of y");
+	}
+}
+
+public class O005_Overriding {
+	public static void main(String[] args) {
+		
+		Y y = new Y();
+		y.display();
+		
+	}
+}
