@@ -1,0 +1,21 @@
+package oops;
+
+
+interface Inter
+{
+	public void sample();
+}
+
+class InterImpl implements Inter
+{
+	
+}
+
+public class O007_Interface {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

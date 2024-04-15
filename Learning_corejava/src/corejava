@@ -10,3 +10,30 @@ looping
 for
 while
 do-while
+
+
+********************************
+Abstraction : 
+
+****************
+Abstract class : partial abstraction  : abstract and instantance
+Interface : 100%  :abstract
+*****************
+
+Abstact method : method withoout body
+ex : public void display();
+
+Instance method : 
+ex : public void dipslay()
+	{
+	}
+
+********************************************
+
+
+
+
+
+
+
+

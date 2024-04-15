@@ -1,0 +1,48 @@
+package oops;
+
+interface shape
+{
+	double PI = 3.14;
+	public void findArea();
+}
+
+class Square implements shape
+{
+	double length;
+	@Override
+	public void findArea() {
+		
+	}
+	
+}
+
+class Triangle implements shape
+{
+	double height;
+	double base;
+	@Override
+	public void findArea() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+class Circle implements shape
+{
+
+	double radious;
+	@Override
+	public void findArea() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
+public class O008_AreaFinder {
+	public static void main(String[] args) {
+		
+	}
+}

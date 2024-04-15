@@ -1,0 +1,52 @@
+package oops;
+
+interface shape
+{
+	double PI = 3.14;
+	public void findArea();
+}
+
+class Square implements shape
+{
+	double length;
+	@Override
+	public void findArea() {
+		double area = length*length;
+		System.out.println("Area of square is : "+area);
+	}
+	
+}
+
+class Triangle implements shape
+{
+	double height;
+	double base;
+	@Override
+	public void findArea() {
+		// TODO Auto-generated method stub
+		double area= 0.5*base*height;
+		System.out.println("area of triangle is : "+area);
+	}
+	
+}
+
+class Circle implements shape
+{
+
+	double r;
+	@Override
+	public void findArea() {
+		
+		double area = PI*r*r;
+		System.out.println("Area of circle is : "+area);
+		
+	}
+	
+}
+
+
+public class O008_AreaFinder {
+	public static void main(String[] args) {
+		
+	}
+}

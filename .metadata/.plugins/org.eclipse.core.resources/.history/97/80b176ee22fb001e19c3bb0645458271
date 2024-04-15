@@ -1,0 +1,23 @@
+package oops;
+
+abstract class Account
+{
+	double balance;
+	public abstract void deposite();
+	public abstract void withdeow();
+	
+	public void getBalance()
+	{
+		System.out.println("currrent balance is : "+balance);
+	}
+	
+}
+
+public class O009_Bank {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

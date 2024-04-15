@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;oops.O008_&apos; to &apos;O008_AreaFinder&apos;&#x0D;&#x0A;- Original project: &apos;Learning_corejava&apos;&#x0D;&#x0A;- Original element: &apos;oops.O008_&apos;&#x0D;&#x0A;- Renamed element: &apos;oops.O008_AreaFinder&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;O008_&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;oops{O008_.java[O008_" matchStrategy="1" name="O008_AreaFinder" qualified="false" references="true" similarDeclarations="false" stamp="1713181709792" textual="false" version="1.0"/>
+</session>

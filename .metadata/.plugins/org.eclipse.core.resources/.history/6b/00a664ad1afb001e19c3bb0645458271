@@ -1,0 +1,10 @@
+package oops;
+
+class Abs
+{
+	abstract public void display();
+}
+
+public class O006_AbstrctDemo {
+
+}
