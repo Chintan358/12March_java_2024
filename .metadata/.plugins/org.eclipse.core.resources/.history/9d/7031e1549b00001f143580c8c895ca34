@@ -1,0 +1,22 @@
+package impclasses;
+
+class Obj_Demo
+{
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Hello";
+	}
+}
+
+
+public class S004_ObjectDemo {
+	public static void main(String[] args) {
+		
+		Obj_Demo d = new Obj_Demo();
+		//System.out.println(d.getClass());
+		
+		System.out.println(d);
+		
+	}
+}

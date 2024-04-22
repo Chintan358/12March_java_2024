@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="oops.Access"/>
@@ -10,4 +9,18 @@
     <fullyQualifiedTypeName name="oops.R"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="oops.Calc"/>
+    <fullyQualifiedTypeName name="oops.AbsImpl"/>
+    <fullyQualifiedTypeName name="oops.Inter1"/>
+    <fullyQualifiedTypeName name="oops.InterDemo"/>
+    <fullyQualifiedTypeName name="oops.Square"/>
+    <fullyQualifiedTypeName name="oops.Triangle"/>
+    <fullyQualifiedTypeName name="oops.Circle"/>
+    <fullyQualifiedTypeName name="oops.Account"/>
+    <fullyQualifiedTypeName name="oops.SavingAccount"/>
+    <fullyQualifiedTypeName name="oops.Sample1"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

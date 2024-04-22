@@ -1,0 +1,26 @@
+package impclasses;
+
+public class S001_Stringdemo {
+	public static void main(String[] args) {
+		
+		//string litral
+		String str = "Hello";
+		//String object
+		String s = new String("Hello");
+		
+		
+		System.out.println(str);
+		System.out.println(s);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

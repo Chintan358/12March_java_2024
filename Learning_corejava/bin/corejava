@@ -29,6 +29,34 @@ ex : public void dipslay()
 	}
 
 ********************************************
+Keywords : 
+
+static
+this
+super
+final
+
+******************************************
+Important classes
+
+String
+String buffer
+String builder
+Object
+Wrapper
+Random
+Math
+
+
+******************************************
+Exception handling
+File io
+Multithreading
+Collctions framwork
+
+
+
+
 
 
 
