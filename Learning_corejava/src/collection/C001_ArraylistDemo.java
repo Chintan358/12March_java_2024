@@ -10,6 +10,7 @@ public class C001_ArraylistDemo {
 		//new size  = oldsize * 3/2 + 1  = 16
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("java");
+		
 		al.add("php");
 		al.add("android");
 		al.add("sql");
