@@ -1,0 +1,22 @@
+package collection;
+
+import java.util.HashMap;
+
+public class C010_Hashmap {
+	public static void main(String[] args) {
+		
+		
+		
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("IN", "India");
+		map.put("US", "usa");
+		map.put("CAN", "canada");
+		map.put("IN" ,"Iran");
+		
+		System.out.println(map);
+		
+		
+		
+		
+	}
+}
