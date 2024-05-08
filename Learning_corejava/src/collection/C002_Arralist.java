@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class C002_Arralist {
 	public static void main(String[] args) {
@@ -20,15 +21,27 @@ public class C002_Arralist {
 		al1.add(300);
 		al1.addAll(al);
 		
+//		
+//		Iterator<Integer> itr = al1.iterator();
+//		
+//		while(itr.hasNext())
+//		{
+//			System.out.println(itr.next());
+//		}
+//		
 		
-		Iterator<Integer> itr = al1.iterator();
+		ListIterator<Integer> itr = al1.listIterator();
 		
-		while(itr.hasNext())
+			while(itr.hasNext())
+			{
+				System.out.println(itr.next());
+			}
+		System.out.println("*************");
+		
+		while(itr.hasPrevious())
 		{
-			System.out.println(itr.next());
+			System.out.println(itr.previous());
 		}
-		
-		
 		
 	}
 }

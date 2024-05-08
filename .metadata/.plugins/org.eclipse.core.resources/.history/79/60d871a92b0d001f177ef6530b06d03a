@@ -1,0 +1,35 @@
+package thread;
+
+class T1 implements Runnable
+
+{
+	public void run()
+	{
+		for(int i = 1;i<=100;i++)
+		{
+			System.out.println("Th1 : "+i);
+		}
+	}
+}
+
+class T2 implements Runnable
+{
+	public void run()
+	{
+		for(int i = 1;i<=100;i++)
+		{
+			System.out.println("Th2 : "+i);
+		}
+	}
+}
+public class T002_ThreadByRunnable {
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+	}
+}
