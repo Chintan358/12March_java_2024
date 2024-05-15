@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class C001_ArraylistDemo {
 	public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class C001_ArraylistDemo {
 		//System.out.println(al.get(2));
 		//System.out.println(al.size());
 		
+		Collections.shuffle(al);
 		
 		for(String s : al)
 		{

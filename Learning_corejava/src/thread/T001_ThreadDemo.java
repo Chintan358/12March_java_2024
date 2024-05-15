@@ -51,5 +51,8 @@ public class T001_ThreadDemo {
 		//t1.start();
 		//t2.start();
 		
+		t1.setDaemon(true);
+		System.out.println(t1.isDaemon());
+		System.out.println(t2.isDaemon());
 	}
 }
