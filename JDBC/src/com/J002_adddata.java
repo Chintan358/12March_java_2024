@@ -1,10 +1,7 @@
 package com;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+
 
 public class J002_adddata {
 	public static void main(String[] args) {
