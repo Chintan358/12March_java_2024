@@ -1,0 +1,80 @@
+* {
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 109, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+}
+
+footer {
+  width: 100%;
+  height: 15%;
+  background-color: black;
+}
+
+#content {
+  width: 100%;
+  height: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reg_form {
+  border: 1px solid black;
+  width: 20%;
+  background-color: aliceblue;
+ 
+}
+
+#logo {
+  width: 30%;
+  height: 100%;
+
+  float: left;
+}
+
+#title {
+  width: 70%;
+  height: 100%;
+  color: white;
+  float: right;
+}
+
+select {
+  width: 160px;
+  height: 25px;
+}
+
+.textfield {
+  width: 150px;
+  height: 15px;
+}
+
+button{
+    width: 70px;
+    height: 25px;
+}
+
+button:hover{
+    color: aqua;
+    background-color: black;
+    width: 75px;
+    height: 30px;
+}

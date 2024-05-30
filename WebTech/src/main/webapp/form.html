@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            background-color: aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+
+        .textfield{
+            background-color: violet;
+            width: 150px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: antiquewhite;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html">Home</a> | <a href="table.html">Table</a> | <a href="form.html">Form</a>
+    <h1 align="center">USer Registration</h1>
+
+    <form action="" method="" style="width: 30%; margin: auto;">
+
+        <fieldset>
+            <legend>Registration</legend>
+            <table>
+                <tr>
+                    <td><label for="uname">Username</label></td>
+                    <td><input type="text" name="uname" id="uname" class="textfield"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email">Email</label></td>
+                    <td> <input type="email" name="email" id="email" class="textfield"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="pass">Password</label></td>
+                    <td> <input type="password" name="pass" id="pass" class="textfield"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="dob">DOB</label></td>
+                    <td> <input type="date" name="dob" id="dob" class="textfield"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="gender">Gender</label></td>
+                    <td> <input type="radio" name="gender" value="male" checked>Male
+                        <input type="radio" name="gender" value="female">FeMale
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="lang">Language</label></td>
+                    <td> <input type="checkbox" name="lang" value="gujarati">Gujarati
+                        <input type="checkbox" name="lang" value="hindi">Hindi
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="country">Country</label></td>
+                    <td>
+                        <select name="country" id="country" class="textfield">
+                            <option value="1">India</option>
+                            <option value="2">USA</option>
+                            <option value="3">UK</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="adr">Address</label></td>
+                    <td> <textarea name="adr" id="adr" style="
+                    background-color: aqua;
+                    border: 3px dotted rebeccapurple;
+                "></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="phone">Phone</label></td>
+                    <td> <input type="number">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td><input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+
+
+
+
+    </form>
+
+
+
+</body>
+
+</html>
