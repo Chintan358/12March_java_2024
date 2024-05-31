@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function btn() {
+            //alert("hello")
+            //confirm("R u sure want to delete?")
+            //prompt("enter your name")
+
+            var btn = document.getElementById("btn")
+            btn.style.backgroundColor = "black"
+            btn.style.color = "white"
+            btn.style.width = "70px";
+            btn.style.height = "30px"
+
+        }
+
+        function btn1() {
+            var btn = document.getElementById("btn")
+            btn.style.backgroundColor = ""
+            btn.style.color = ""
+            btn.style.width = "";
+            btn.style.height = ""
+
+        }
+
+        function tf() {
+            var uname = document.getElementById("uname")
+            uname.style.height = "30px"
+            uname.style.border = "2px solid red   "
+        }
+
+        function tf1(value) {
+            var data = document.getElementById("data")
+            data.innerHTML = value
+        }
+
+        function add() {
+            var a = document.getElementById("a").value
+            var b = document.getElementById("b").value
+            var r = document.getElementById("r")
+            var c = Number(a) + Number(b)
+            r.value = c
+        }
+
+        function sub() {
+            var a = document.getElementById("a").value
+            var b = document.getElementById("b").value
+            var r = document.getElementById("r")
+            var c = Number(a) - Number(b)
+            r.value = c
+        }
+
+        function mul() {
+            var a = document.getElementById("a").value
+            var b = document.getElementById("b").value
+            var r = document.getElementById("r")
+            var c = Number(a) * Number(b)
+            r.value = c
+        }
+
+        function div() {
+            var a = document.getElementById("a").value
+            var b = document.getElementById("b").value
+            var r = document.getElementById("r")
+            var c = Number(a) / Number(b)
+            r.value = c
+        }
+    </script>
+</head>
+
+<body>
+
+    <button onmouseover="btn()" onmouseout="btn1()" id="btn">click me</button>
+
+    <hr>
+
+    <input type="text" id="uname" onclick="tf()" onkeyup="tf1(value)">
+    <h1 id="data"></h1>
+
+    <hr>
+
+    <input type="number" id="a" placeholder="enter number">
+    <input type="number" id="b" placeholder="enter number">
+    <input type="text" id="r" placeholder="Result" readonly>
+
+    <br><br>
+
+    <button onmouseover="add()">ADD</button>
+    <button onmouseover="sub()">SUB</button>
+    <button onmouseover="mul()">MUL</button>
+    <button onmouseover="div()">DIV</button>
+</body>
+
+</html>
