@@ -206,7 +206,7 @@
 						<td><%=rs.getString(3) %></td>
 						
 						<td><a href="delete?did=<%=rs.getInt(1)%>" class="btn btn-danger">Delete</a></td>
-						<td><button class="btn btn-warning">Edit</button></td>
+						<td><a href="edit?eid=<%=rs.getInt(1)%>" class="btn btn-primary">Update</a></td>
 						</tr>
 					<%}
 					
