@@ -5,4 +5,8 @@
 		<welcome-file>login.jsp</welcome-file>
 		
 	</welcome-file-list>
+	
+	<listener>
+	<listener-class>controller.Listner</listener-class>
+	</listener>
 </web-app>

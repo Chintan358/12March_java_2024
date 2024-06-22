@@ -16,9 +16,14 @@
 			request.getRequestDispatcher("login.jsp").forward(request, response);
 			
 		}
+		
+	
+		
 	%>
 	<h1>Home, Welcome, <%=user%></h1>
 
+	<h2>Current user = ${cuser}</h2>
+	<h2>Total user = ${tuser}</h2>
 	<ul>
 		<li>Laptop</li>
 		<li>Mouse</li>

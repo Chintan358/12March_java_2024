@@ -2,8 +2,8 @@ package controller;
 
 import java.io.IOException;
 
-import com.mysql.cj.Session;
-
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -24,6 +24,12 @@ public class Logincontroller extends HttpServlet {
 		{
 			HttpSession session = req.getSession();
 			session.setAttribute("user", "admin");
+			
+			ServletContext cx = req.getServletContext();
+			req.setAttribute("cuser", cx.getAttribute("cuser"));
+			req.setAttribute("tuser", cx.getAttribute("tuser"));
+			
+			
 			req.getRequestDispatcher("home.jsp").forward(req, resp);
 		}
 		else

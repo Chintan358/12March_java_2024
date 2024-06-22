@@ -34,7 +34,12 @@ public class RegFilter extends HttpFilter {
 		{
 			request.setAttribute("emailErr", "Email is required !!!!");
 			rd.forward(request, response);
+		}else if(!Validation.emailValidation(email))
+		{
+			request.setAttribute("emailErr", "Invalid email Formate");
+			rd.forward(request, response);
 		}
+		
 		
 		if(pass=="" || pass==null)
 		{

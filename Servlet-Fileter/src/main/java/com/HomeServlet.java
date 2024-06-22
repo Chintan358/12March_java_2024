@@ -1,4 +1,4 @@
-package controller;
+package com;
 
 import java.io.IOException;
 
@@ -7,18 +7,11 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
 
-@WebServlet("/logout")
-public class Logoutcontroller extends HttpServlet {
+@WebServlet("/secret2")
+public class HomeServlet extends HttpServlet{
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		
-		HttpSession session = req.getSession(false);
-		session.invalidate();
-		
-		//req.getRequestDispatcher("login.jsp").forward(req, resp);
-		
+		req.getRequestDispatcher("home.jsp").forward(req, resp);
 	}
 }
