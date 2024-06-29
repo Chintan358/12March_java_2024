@@ -6,6 +6,7 @@
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -154,7 +155,7 @@
 						<th colspan="2">Action</th>
 					</tr>
 					
-					<%
+					<%-- <%
 						ArrayList<User> al =(ArrayList<User>)request.getAttribute("data");
 						for(User u  :al)
 						{ %>
@@ -168,8 +169,18 @@
 						</tr>
 						<% }
 					
-					%>
+					%> --%>
 				
+					<c:forEach items="${data}" var="dt">
+					<tr>
+						<td>${dt.getId() }</td>
+						<td>${dt.getUname()}</td>
+						<td>${dt.getEmail()}</td>
+						
+						<td><a href="update?uid=${dt.getId() }&action=delete" class="btn btn-danger">Delete</a></td>
+						<td><a href="update?uid=${dt.getId() }&action=edit"class="btn btn-primary">Update</a></td>
+						</tr>
+					</c:forEach>
 						
 				
 
